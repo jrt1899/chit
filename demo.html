@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+document.getElementById( 'slide' ).addEventListener( 'click', function() {
+
+    this.style.height == '50px' || this.style.height == ''
+        ? this.style.height = '150px' 
+        : this.style.height = '50px';
+
+}, false );
+</script>
+<style>
+#slide {
+	border: 1px solid black;
+    height: 50px;
+    transition:             height 500ms ease;
+        -moz-transition:    height 500ms ease;
+        -ms-transition:     height 500ms ease;
+        -o-transition:      height 500ms ease;
+        -webkit-transition: height 500ms ease;
+}
+</style>
+</head>
+
+
+<body>
+<div id="slide">click me</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.class1 {
+		position:absolute; 
+		top:2.5%;
+		right:5%;
+		left:5%;
+		width: 90%;
+		height: 15%
+	}
+	
+	.class2 {
+		float:right;
+		margin-top:2%;
+		border-style:solid;
+		border-width:1px;
+		border-color:rgb(81,176,144);
+		color:rgb(81,176,144);
+		border-radius:3px;
+		padding:10px;
+		margin-left:3%
+	}
+	
+	.search {
+		float:right;
+		margin-top:2%;
+		margin-left: 3%
+		background:red;
+		 width:2%;
+		 height:50%;
+		transition: width 1s;
+		border: 1px solid black;
+		display:block;
+	}
+
+	.search:hover {
+		width:10%;
+	}
